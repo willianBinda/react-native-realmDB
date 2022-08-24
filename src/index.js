@@ -54,7 +54,7 @@ const Home = ()=>{
     const deleteALL = ()=>{
         if(realm){
             realm.write(()=>{
-                realm.deleteAll()
+              realm.deleteAll()
             })
 
         }
@@ -81,7 +81,7 @@ const Home = ()=>{
           renderItem={({ item }) => {
             return (
               <View style={styles.itemContainer}>
-                <Text style={styles.itemText}>{item.name}</Text>
+                <Text style={styles.itemText}>{item.task}</Text>
               </View>
             );
           }}
