@@ -13,7 +13,7 @@ const Home = ()=>{
         firstTask = await writeTask({    
             _id:2,
             name:"willian",
-            status:"corno",
+            status:"ok",
         })
     };
 
